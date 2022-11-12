@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71AFA73292046CB0086CB10 /* HandoffTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AFA72292046CB0086CB10 /* HandoffTestApp.swift */; };
+		F71AFA75292046CB0086CB10 /* HandoffTestDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AFA74292046CB0086CB10 /* HandoffTestDocument.swift */; };
+		F71AFA77292046CB0086CB10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AFA76292046CB0086CB10 /* ContentView.swift */; };
+		F71AFA79292046CC0086CB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71AFA78292046CC0086CB10 /* Assets.xcassets */; };
+		F71AFA7E292046CC0086CB10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71AFA7D292046CC0086CB10 /* Preview Assets.xcassets */; };
+		F71AFA88292046CC0086CB10 /* HandoffTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AFA87292046CC0086CB10 /* HandoffTestTests.swift */; };
+		F71AFA92292046CC0086CB10 /* HandoffTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AFA91292046CC0086CB10 /* HandoffTestUITests.swift */; };
+		F71AFA94292046CC0086CB10 /* HandoffTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AFA93292046CC0086CB10 /* HandoffTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F71AFA84292046CC0086CB10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71AFA67292046CB0086CB10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71AFA6E292046CB0086CB10;
+			remoteInfo = HandoffTest;
+		};
+		F71AFA8E292046CC0086CB10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71AFA67292046CB0086CB10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71AFA6E292046CB0086CB10;
+			remoteInfo = HandoffTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71AFA6F292046CB0086CB10 /* HandoffTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandoffTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71AFA72292046CB0086CB10 /* HandoffTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffTestApp.swift; sourceTree = "<group>"; };
+		F71AFA74292046CB0086CB10 /* HandoffTestDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffTestDocument.swift; sourceTree = "<group>"; };
+		F71AFA76292046CB0086CB10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F71AFA78292046CC0086CB10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71AFA7A292046CC0086CB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71AFA7B292046CC0086CB10 /* HandoffTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HandoffTest.entitlements; sourceTree = "<group>"; };
+		F71AFA7D292046CC0086CB10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F71AFA83292046CC0086CB10 /* HandoffTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandoffTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71AFA87292046CC0086CB10 /* HandoffTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffTestTests.swift; sourceTree = "<group>"; };
+		F71AFA8D292046CC0086CB10 /* HandoffTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandoffTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71AFA91292046CC0086CB10 /* HandoffTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffTestUITests.swift; sourceTree = "<group>"; };
+		F71AFA93292046CC0086CB10 /* HandoffTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandoffTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71AFA6C292046CB0086CB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AFA80292046CC0086CB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AFA8A292046CC0086CB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71AFA66292046CB0086CB10 = {
+			isa = PBXGroup;
+			children = (
+				F71AFA71292046CB0086CB10 /* HandoffTest */,
+				F71AFA86292046CC0086CB10 /* HandoffTestTests */,
+				F71AFA90292046CC0086CB10 /* HandoffTestUITests */,
+				F71AFA70292046CB0086CB10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71AFA70292046CB0086CB10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71AFA6F292046CB0086CB10 /* HandoffTest.app */,
+				F71AFA83292046CC0086CB10 /* HandoffTestTests.xctest */,
+				F71AFA8D292046CC0086CB10 /* HandoffTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71AFA71292046CB0086CB10 /* HandoffTest */ = {
+			isa = PBXGroup;
+			children = (
+				F71AFA72292046CB0086CB10 /* HandoffTestApp.swift */,
+				F71AFA74292046CB0086CB10 /* HandoffTestDocument.swift */,
+				F71AFA76292046CB0086CB10 /* ContentView.swift */,
+				F71AFA78292046CC0086CB10 /* Assets.xcassets */,
+				F71AFA7A292046CC0086CB10 /* Info.plist */,
+				F71AFA7B292046CC0086CB10 /* HandoffTest.entitlements */,
+				F71AFA7C292046CC0086CB10 /* Preview Content */,
+			);
+			path = HandoffTest;
+			sourceTree = "<group>";
+		};
+		F71AFA7C292046CC0086CB10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F71AFA7D292046CC0086CB10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F71AFA86292046CC0086CB10 /* HandoffTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F71AFA87292046CC0086CB10 /* HandoffTestTests.swift */,
+			);
+			path = HandoffTestTests;
+			sourceTree = "<group>";
+		};
+		F71AFA90292046CC0086CB10 /* HandoffTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F71AFA91292046CC0086CB10 /* HandoffTestUITests.swift */,
+				F71AFA93292046CC0086CB10 /* HandoffTestUITestsLaunchTests.swift */,
+			);
+			path = HandoffTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71AFA6E292046CB0086CB10 /* HandoffTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71AFA97292046CC0086CB10 /* Build configuration list for PBXNativeTarget "HandoffTest" */;
+			buildPhases = (
+				F71AFA6B292046CB0086CB10 /* Sources */,
+				F71AFA6C292046CB0086CB10 /* Frameworks */,
+				F71AFA6D292046CB0086CB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandoffTest;
+			productName = HandoffTest;
+			productReference = F71AFA6F292046CB0086CB10 /* HandoffTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F71AFA82292046CC0086CB10 /* HandoffTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71AFA9A292046CC0086CB10 /* Build configuration list for PBXNativeTarget "HandoffTestTests" */;
+			buildPhases = (
+				F71AFA7F292046CC0086CB10 /* Sources */,
+				F71AFA80292046CC0086CB10 /* Frameworks */,
+				F71AFA81292046CC0086CB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71AFA85292046CC0086CB10 /* PBXTargetDependency */,
+			);
+			name = HandoffTestTests;
+			productName = HandoffTestTests;
+			productReference = F71AFA83292046CC0086CB10 /* HandoffTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F71AFA8C292046CC0086CB10 /* HandoffTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71AFA9D292046CC0086CB10 /* Build configuration list for PBXNativeTarget "HandoffTestUITests" */;
+			buildPhases = (
+				F71AFA89292046CC0086CB10 /* Sources */,
+				F71AFA8A292046CC0086CB10 /* Frameworks */,
+				F71AFA8B292046CC0086CB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71AFA8F292046CC0086CB10 /* PBXTargetDependency */,
+			);
+			name = HandoffTestUITests;
+			productName = HandoffTestUITests;
+			productReference = F71AFA8D292046CC0086CB10 /* HandoffTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71AFA67292046CB0086CB10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F71AFA6E292046CB0086CB10 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F71AFA82292046CC0086CB10 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F71AFA6E292046CB0086CB10;
+					};
+					F71AFA8C292046CC0086CB10 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F71AFA6E292046CB0086CB10;
+					};
+				};
+			};
+			buildConfigurationList = F71AFA6A292046CB0086CB10 /* Build configuration list for PBXProject "HandoffTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71AFA66292046CB0086CB10;
+			productRefGroup = F71AFA70292046CB0086CB10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71AFA6E292046CB0086CB10 /* HandoffTest */,
+				F71AFA82292046CC0086CB10 /* HandoffTestTests */,
+				F71AFA8C292046CC0086CB10 /* HandoffTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71AFA6D292046CB0086CB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71AFA7E292046CC0086CB10 /* Preview Assets.xcassets in Resources */,
+				F71AFA79292046CC0086CB10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AFA81292046CC0086CB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AFA8B292046CC0086CB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71AFA6B292046CB0086CB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71AFA73292046CB0086CB10 /* HandoffTestApp.swift in Sources */,
+				F71AFA75292046CB0086CB10 /* HandoffTestDocument.swift in Sources */,
+				F71AFA77292046CB0086CB10 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AFA7F292046CC0086CB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71AFA88292046CC0086CB10 /* HandoffTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AFA89292046CC0086CB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71AFA92292046CC0086CB10 /* HandoffTestUITests.swift in Sources */,
+				F71AFA94292046CC0086CB10 /* HandoffTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71AFA85292046CC0086CB10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71AFA6E292046CB0086CB10 /* HandoffTest */;
+			targetProxy = F71AFA84292046CC0086CB10 /* PBXContainerItemProxy */;
+		};
+		F71AFA8F292046CC0086CB10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71AFA6E292046CB0086CB10 /* HandoffTest */;
+			targetProxy = F71AFA8E292046CC0086CB10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F71AFA95292046CC0086CB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F71AFA96292046CC0086CB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F71AFA98292046CC0086CB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HandoffTest/HandoffTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandoffTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HandoffTest/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-Test1.HandoffTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71AFA99292046CC0086CB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HandoffTest/HandoffTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandoffTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HandoffTest/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-Test1.HandoffTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F71AFA9B292046CC0086CB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-Test1.HandoffTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandoffTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HandoffTest";
+			};
+			name = Debug;
+		};
+		F71AFA9C292046CC0086CB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-Test1.HandoffTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandoffTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HandoffTest";
+			};
+			name = Release;
+		};
+		F71AFA9E292046CC0086CB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-Test1.HandoffTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandoffTest;
+			};
+			name = Debug;
+		};
+		F71AFA9F292046CC0086CB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-Test1.HandoffTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandoffTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71AFA6A292046CB0086CB10 /* Build configuration list for PBXProject "HandoffTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71AFA95292046CC0086CB10 /* Debug */,
+				F71AFA96292046CC0086CB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71AFA97292046CC0086CB10 /* Build configuration list for PBXNativeTarget "HandoffTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71AFA98292046CC0086CB10 /* Debug */,
+				F71AFA99292046CC0086CB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71AFA9A292046CC0086CB10 /* Build configuration list for PBXNativeTarget "HandoffTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71AFA9B292046CC0086CB10 /* Debug */,
+				F71AFA9C292046CC0086CB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71AFA9D292046CC0086CB10 /* Build configuration list for PBXNativeTarget "HandoffTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71AFA9E292046CC0086CB10 /* Debug */,
+				F71AFA9F292046CC0086CB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71AFA67292046CB0086CB10 /* Project object */;
+}
