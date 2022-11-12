@@ -14,7 +14,7 @@ extension UTType {
     }
 }
 
-struct HandoffTestDocument: FileDocument {
+struct HandoffTestDocument: FileDocument,Codable {
     var text: String
 
     init(text: String = "Hello, world!") {
